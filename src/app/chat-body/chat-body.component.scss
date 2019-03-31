@@ -1,0 +1,234 @@
+
+body{
+    // body general css
+    box-sizing: border-box;
+    font-family: 'Open Sans',sans-serif;
+    list-style: none;
+    height: 100vh;
+    
+    .heading{
+        height: 53px;
+    }
+}
+
+//temp
+// .HeightImpr{
+//     height: 100% !important;
+// }
+    //side bar
+    .sideBar{
+        width: 60px;
+        background: #1D232A;
+        height: 100vh;
+
+        .toggleIcon{
+            height: 53px;
+            i{
+                font-size: 13px;
+                color: white;
+            }
+        }
+        .snIcons{
+            padding: 10px;
+            // width: 47px;
+            // height: 47px;
+        }        
+        .snIcons img{
+            // padding: 10px;
+            width: 27px;
+            height: 27px;
+            // border-radius: 50%;   
+        }
+    }
+
+    //Inbox sections(second)
+    .inboxSection{
+        line-height: 20px;
+        background: #232A31;
+        color: #516172;
+        font-weight: 400;
+        font-size: 13px;
+        .sectionCount{
+            color: white;
+        }
+        .heading{
+            color: white;
+            height: 53px;
+            p{
+                font-size: 17px;
+                color: white;
+                font-weight: 600;
+            }
+        }
+    }
+
+    //Search and message shortcuts(third)
+    .messageShortcuts{
+        background: #262C33;
+        box-sizing: border-box;
+        .heading{
+            border-bottom:0.5px solid gray;
+            height: 53px;
+            // search 
+            .input-group{
+                height: 34px;
+                border-radius: 23px;
+                outline: none;
+                .search_btn{
+                    background: transparent;
+                    color: white;
+                    outline: none;
+                }
+                input{
+                    height: 34px;
+                    background: rgba(255,255,255,.1);
+                    outline: none;
+                }
+            }
+
+        }
+        .pictureFrame{
+            border-bottom: 0.5px solid gray;
+            // border-left: 2px solid blue;
+            .profilePicture{
+                margin-left: 5px;
+                width: 40px;
+                height: 40px;
+            }
+            .shortBorder{border-bottom: 0.5px solid gray;}
+        }
+        .messages{        
+            box-sizing: border-box;
+            color: white;
+            height: 68px;
+            .shortMessage{
+                // height: 78px;
+                color: #516172;
+                font-size: 10px;
+                width: 30ch;
+                overflow: hidden;
+                white-space: nowrap;
+                text-overflow: ellipsis;
+            }
+            li{
+                height: 78px;
+            }
+        }
+    
+    }
+
+    //Message Body(fourth)
+    .messageBody{
+        background-color: #EFF0F4;
+        .heading{
+            background-color: #EDECF2;
+            height: 53px;
+            border-bottom: 0.5px solid gray;
+            // position: relative;
+            i{
+                color: gray;
+            }
+            ul li{
+                // position: absolute;
+                height: 53px;
+                width: 65px;
+                border-left: 0.5px solid gray;
+                // border: 0.5px solid gray;
+            }
+            .senderName{
+                color: black;
+                font-weight: 600;
+                font-size: 13px;
+            }
+            .typingStatus{
+                font-size: 13px;
+            }
+        }
+        .chatWindow{
+            .chatSentMessage{
+                background: white;
+                border-radius: 10px;
+            }
+            .chatMyMessage{
+                background: #0184FE;
+                border-radius: 10px;
+            }
+            .chatImage{
+                width:30px;
+                height: 30px;
+                border-radius: 50%;
+            }
+
+        }
+        .commercial{
+            color: white;
+            .secondText{
+                font-size: 13px;
+            }
+            .yellowStar{
+                color:yellow;
+                font-size: 10px;
+            }
+            .whiteStar{
+                color: white;
+                font-size: 10px;
+            }
+            span{
+                font-size: 10px;
+                padding-left: 10px;
+            }
+            button{
+                background: #2163B1;
+                font-size: 13px;
+            }
+        }
+    }
+
+    //Profil and Info(last)
+    .profileInfo{
+        .heading{
+            height: 53px;
+            border-bottom: 0.5px solid rgb(146, 146, 146);
+            color: gray;
+            p{
+                font-size: 13px;
+                color: #516172;
+            }
+            i{
+                // margin-top: auto;
+            }
+        }
+        .mainInfo{
+            .bigImage{
+                width: 97px;
+                height: 97px;
+                border-radius:50%;
+            }
+            .messengerIcon{
+                width: 18px;
+                height: 18px;
+            }
+        }
+        .nameAndAddress{
+            border-bottom: 0.5px solid gray;
+        }
+        .bigImageName{
+            font-weight: 600;
+            font-size:17px;
+        }
+        .bigImageAddress{
+            font-size: 13px;
+            color: #516172;
+        }
+        .generalInfo{
+            font-size: 13px;
+            color: #516172;
+        height: 36px;
+            li{
+                border-bottom: 0.1px solid rgb(185, 185, 185);
+                padding-bottom: 30px;
+            }
+        }
+    }
+
+

@@ -3,10 +3,12 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { ChatBodyComponent } from './chat-body/chat-body.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    ChatBodyComponent
   ],
   imports: [
     BrowserModule,
